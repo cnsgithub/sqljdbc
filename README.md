@@ -1,6 +1,6 @@
-#Reproducer for https://github.com/microsoft/mssql-jdbc/issues/1059
+# Reproducer for https://github.com/microsoft/mssql-jdbc/issues/1059
 
-##Setup
+## Setup
 ````sql
 create database test_sp
 go
@@ -23,8 +23,8 @@ grant execute on test to executor
 go
 ````
 
-##Execution
+## Execution
 Just execute the unit tests contained in ``MssqlJdbc1059``.
 
-##Results
+## Results
 ![](junit_fail.png)
